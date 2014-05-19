@@ -1,0 +1,8 @@
+<h2><%= link_to post.name, post %></h2> <span>written by: <%= post.user.name %> </span>
+
+<% if !user_signed_in? %>
+  <p> <%= link_to "Log in to Edit or Delete your Post", login_path %> </p>
+<% else %>
+  <p><%= link_to 'Edit', edit_post_path(post) %></p>
+  <p><%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %></p>
+<% end %>
