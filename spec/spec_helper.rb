@@ -2,7 +2,6 @@
 ENV["RAILS_ENV"] ||= 'test'
 require File.expand_path("../../config/environment", __FILE__)
 require 'rspec/rails'
-require 'rspec/autorun'
 require 'capybara/dsl'
 
 # Requires supporting ruby files with custom matchers and macros, etc,
@@ -20,7 +19,7 @@ RSpec.configure do |config|
   config.order = "default"
   config.include Capybara::DSL
   DatabaseCleaner.strategy = :truncation
-  config.after(:all) do 
+  config.after(:all) do
     DatabaseCleaner.clean
   end
 end
