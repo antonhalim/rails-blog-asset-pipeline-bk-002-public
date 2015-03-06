@@ -16,6 +16,6 @@ Our blog is basically fully functional, but looking a bit bland. Let's add a [fr
 
 ## Resources
 
-[What is the Asset Pipeline](http://edgeguides.rubyonrails.org/asset_pipeline.html#what-is-the-asset-pipeline-questionmark)
+* [What is the Asset Pipeline](http://edgeguides.rubyonrails.org/asset_pipeline.html#what-is-the-asset-pipeline-questionmark)
 
-[Asset Organization](http://edgeguides.rubyonrails.org/asset_pipeline.html#asset-organization)
+* [Asset Organization](http://edgeguides.rubyonrails.org/asset_pipeline.html#asset-organization)
