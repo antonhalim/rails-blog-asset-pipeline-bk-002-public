@@ -14,8 +14,11 @@ Our blog is basically fully functional, but looking a bit bland. Let's add a [fr
 2. In your `app/assets/stylesheets/application.css` manifest file, include the file(s) we added to our `vendor/assets`.
 3. Play around with getting it to look nice! Check out the bootstrap [documentation](http://getbootstrap.com/css/).
 
+## Bcrypt Segmentation Fault Issue
+
+If you run into any Segmentation Fault issues (most likely caused by the `bcrypt` gem), run `gem uninstall bcrypt` (uninstall all versions), and then do `bundle install` again.
+
 ## Resources
 
 * [What is the Asset Pipeline](http://edgeguides.rubyonrails.org/asset_pipeline.html#what-is-the-asset-pipeline-questionmark)
-
 * [Asset Organization](http://edgeguides.rubyonrails.org/asset_pipeline.html#asset-organization)
