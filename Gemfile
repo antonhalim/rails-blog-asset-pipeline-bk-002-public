@@ -25,6 +25,14 @@ gem 'spring',        group: :development
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
 
+gem 'autoprefixer-rails'
+
+source 'https://rails-assets.org' do
+  gem 'rails-assets-bootstrap'
+  gem 'rails-assets-angular'
+  gem 'rails-assets-leaflet'
+end
+
 # Use unicorn as the app server
 # gem 'unicorn'
 
@@ -55,4 +63,3 @@ group :production do
 end
 
 gem "bootstrap-sass", "~> 3.1.1"
-
