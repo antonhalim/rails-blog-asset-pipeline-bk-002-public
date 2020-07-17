@@ -78,7 +78,7 @@ GEM
     factory_girl_rails (4.5.0)
       factory_girl (~> 4.5.0)
       railties (>= 3.0.0)
-    ffi (1.9.6)
+    ffi (1.12.2)
     globalid (0.3.3)
       activesupport (>= 4.1.0)
     google-analytics-rails (0.0.6)
